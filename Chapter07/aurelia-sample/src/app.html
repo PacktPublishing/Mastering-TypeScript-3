@@ -1,0 +1,24 @@
+<template>
+
+    <require from="bootstrap/dist/css/bootstrap.css"></require>
+
+    <h1>${Title}</h1>
+    <ul>
+        <div repeat.for="item of items" click.delegate="onItemClicked(item)">
+            <button style="margin: 5px;" class="btn btn-primary">${item.DisplayName}</button>
+        </div>
+    </ul>
+
+    <div>
+        Selected Item : ${SelectedItem.Id} - ${SelectedItem.DisplayName}
+    </div>
+
+    <div class="form-group">
+        <label for="inputName">Name :</label>
+        <input type="text" class="form-control input-name" id="inputName" value.bind="Name" />
+    </div>
+
+    <button id="submit-button-button" class="submit-button" click.delegate="onSubmitClicked()">Submit</button>
+
+
+</template>

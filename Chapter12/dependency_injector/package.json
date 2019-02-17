@@ -1,0 +1,22 @@
+{
+    "name": "dependency_injector",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/reflect-metadata": "^0.1.0",
+        "nodemailer": "^4.7.0",
+        "reflect-metadata": "^0.1.12"
+    },
+    "devDependencies": {
+        "@types/node": "^10.12.18",
+        "@types/nodemailer": "^4.6.5",
+        "@types/nodemailer-direct-transport": "^1.0.31",
+        "@types/nodemailer-smtp-transport": "^2.7.4"
+    }
+}

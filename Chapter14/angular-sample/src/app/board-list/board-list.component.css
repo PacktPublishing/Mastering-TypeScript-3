@@ -1,0 +1,45 @@
+
+
+.manufacturer-logo {
+    max-width: 100px;
+    float: right;
+    max-height: 60px;
+    min-height: 60px;
+}
+
+.board-inner-panel {
+    padding: 15px;
+    border-left: 15px solid green;
+    margin: 10px;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+}
+
+.board-name-panel {
+    padding-bottom: 10px;
+    border-bottom: 5px solid green;
+}
+
+.board-name {
+    font-size: 20px;
+}
+
+.board-desc {
+    font-size: 15px;
+}
+
+
+.board-image {
+    max-height: 200px;
+    min-height: 200px;
+    max-width: 150px;
+}
+
+.size-table {
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+.board-detail-clickable {
+    cursor: pointer;
+}

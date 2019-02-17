@@ -1,0 +1,81 @@
+<div id="myRightScreen" class="overlay">
+    <div class="sidenav_expand_detail" (click)="closeClicked()">
+        <span id="show-hide-side-button-2" class="filter-button-detail fa fa-chevron-left">
+        </span>
+    </div>
+
+    <div *ngIf="board">
+        <div class="overlay-content">
+            <!--      header-row-->
+            <div class="detail-header-row">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="row">
+                            <div class="col-sm-12 detail-board-name">
+                                {{board.name}}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 detail-board-short-description">
+                                {{board.short_description}}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 detail-board-short-description">
+                                <span *ngFor="let boardtype of board.types">
+                                    {{boardtype.board_type_name}} |
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/assets/images/{{board.mflogo}}" class="img manufacturer-logo" />
+                    </div>
+                </div>
+                <!--       end header-row-->
+            </div>
+
+            <div class="detail-detail-row">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="/assets/images/{{board.img}}" class="img board-image-detail" />
+                    </div>
+                    <div class="col-sm-8 board-detail-column">
+                        <div class="row">
+                            {{board.long_description}}
+                        </div>
+                        <div class="row board-size-row">
+                            <div class="col-sm-12">
+                                <div class="board-size-header">Avialable Sizes</div>
+
+
+                                <table class="table table-dark">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Volume</th>
+                                            <th scope="col">Width</th>
+                                            <th scope="col">Length</th>
+                                            <th scope="col">Sail Min</th>
+                                            <th scope="col">Sail Max</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr *ngFor="let size of board.sizes">
+                                            <td>{{size.volume}}</td>
+                                            <td>{{size.width}}</td>
+                                            <td>{{size.length}}</td>
+                                            <td>{{size.sail_min}}</td>
+                                            <td>{{size.sail_max}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

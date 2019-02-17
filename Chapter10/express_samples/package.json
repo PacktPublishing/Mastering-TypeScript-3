@@ -1,0 +1,25 @@
+{
+  "name": "express_samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "@types/express": "^4.16.0",
+    "@types/express-serve-static-core": "^4.0.40",
+    "@types/express-session": "0.0.32",
+    "@types/mime": "0.0.29",
+    "@types/serve-static": "^1.7.31",
+    "body-parser": "^1.16.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.0",
+    "hbs": "^4.0.1",
+    "node": "0.0.0"
+  }
+}

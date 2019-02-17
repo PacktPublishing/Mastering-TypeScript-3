@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+
+<app-sidenav></app-sidenav>
+
+<app-rightscreen (notify)='onNotifyRightWindow($event)'></app-rightscreen>
+
+<div id="main" class="main-content-panel">
+    <div class="row">
+        <div class="col-sm-1">
+            <button (click)="showHideSideClicked()">
+                <span id="show-hide-side-button" class="fa "> </span>
+            </button>
+        </div>
+        <div class="col-sm-11">
+            <div class="row-content-header">{{title}}</div>
+        </div>
+    </div>
+    <div class="main-content">
+        <button class="btn btn-primary" (click)="buttonClickedDetail()">
+            detail
+        </button>
+    </div>
+</div>

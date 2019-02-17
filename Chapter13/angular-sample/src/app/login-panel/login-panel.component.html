@@ -1,0 +1,30 @@
+<div class="container h-100">
+    <div class="row align-items-center h-100">
+        <div class="col-6 mx-auto">
+            <div class="jumbotron text-center shadow-lg p-3 mb-5 bg-white rounded">
+                <img src="/assets/logo.jpg" class="img-fluid">
+                <div>&nbsp;</div>
+                <h2>Please Login</h2>
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Username" name="username" [(ngModel)]="username">
+
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" placeholder="Password" name="password" [(ngModel)]="password">
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit" (click)="onLoginClicked()">Login</button>&nbsp;
+                    <button class="btn btn-primary" (click)="onLoginGoogleClicked()">Login with Google</button>
+                </div>
+
+                <div *ngIf="error">
+                    <div class="alert alert-danger">
+                        {{error}}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

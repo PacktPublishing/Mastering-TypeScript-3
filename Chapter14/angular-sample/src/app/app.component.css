@@ -1,0 +1,22 @@
+body {
+    overflow: hidden;
+}
+
+#main {
+    margin-left: 250px;
+    transition: .3s;
+}
+
+#main-body {
+    transition: .3s;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.row-content-header {
+    padding: 5px;
+    font-size: 20px;
+}
+

@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+
+<app-sidenav></app-sidenav>
+
+<div id="sidenav_expand_panel" class="sidenav_expand" (click)="showHideSideClicked()">
+    <span id="show-hide-side-button" class="filter-button fa ">
+    </span>
+</div>
+
+<app-rightscreen (notify)='onNotifyRightWindow($event)'></app-rightscreen>
+
+<div id="main" class="main-content-panel">
+    <div class="row shadow-sm main-content-row">
+        <div class="col-sm-12 main-content-col">
+            <div class="row-content-header ">
+                <div class="row main-content-header-row">
+                    <div class="col-sm-12">Board List</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main-content">
+        <app-board-list></app-board-list>
+    </div>
+
+</div>

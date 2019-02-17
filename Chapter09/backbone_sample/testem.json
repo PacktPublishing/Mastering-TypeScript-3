@@ -1,0 +1,14 @@
+{
+    "framework": "jasmine2",
+    "src_files": [
+        "node_modules/jquery/dist/jquery.js",
+        "node_modules/jasmine-jquery/lib/jasmine-jquery.js",
+        "node_modules/underscore/underscore.js",
+        "node_modules/backbone/backbone.js",
+        "models.js",
+        "views.js",
+        "app.js",
+        "models.spec.js",
+        "views.spec.js"
+    ]
+}

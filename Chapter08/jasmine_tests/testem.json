@@ -1,0 +1,8 @@
+{
+    "framework": "jasmine2",
+    "src_files": [
+        "node_modules/jquery/dist/jquery.js",
+        "node_modules/jasmine-jquery/lib/jasmine-jquery.js",
+        "html_spec/HtmlTests.spec.js"
+    ]
+}

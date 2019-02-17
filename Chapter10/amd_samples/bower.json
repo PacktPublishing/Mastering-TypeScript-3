@@ -1,0 +1,23 @@
+{
+  "name": "amd_samples",
+  "authors": [
+    "blorkfish <blorkfish@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.1",
+    "jasmine-core": "jasmine#^2.5.2",
+    "jquery": "^3.1.1",
+    "jasmine-jquery": "^2.1.1"
+  }
+}

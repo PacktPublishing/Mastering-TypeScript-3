@@ -1,0 +1,24 @@
+{
+  "name": "react-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/underscore": "^1.8.9",
+    "bootstrap": "^4.1.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.15",
+    "@types/react-dom": "^16.0.8",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.2.1"
+  }
+}

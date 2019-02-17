@@ -1,0 +1,54 @@
+
+#main {
+    transition: .3s;
+}
+
+.main-content-header-row {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.main-content-col {
+    padding-right: 0px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.main-content-panel {
+    height: 100%;
+    margin-top:55px;
+}
+
+.main-content-row {
+    margin-right: 0px;
+}
+
+.sidenav_expand {
+    height: 100%; /* 100% Full-height */
+    width: 30px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 56px;
+    left: 250px;
+    background-color: black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px; /* Place content 60px from the top */
+    transition: 0.3s;   
+    color: white;
+    padding-left: 10px;
+}
+
+.filter-button {
+    color: white;
+    background-color: black;
+    margin-top: 14px;
+}
+
+.row-content-header {
+    font-size: 30px;
+    background-color: #3535a5;
+    color: #ffffff;
+}
+

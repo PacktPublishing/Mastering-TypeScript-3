@@ -1,0 +1,17 @@
+<div id="mySidenav" class="sidenav">
+    <a href="#">Manufacturers</a>
+
+    <div *ngFor="let manufacturer of manufacturerCheckList; let i_manuf = index " class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="manufacturer_{{i_manuf}}_check" [(ngModel)]="manufacturer.checked"
+            (change)="onManufacturerChanged()">
+        <label class="custom-control-label" for="manufacturer_{{i_manuf}}_check">{{manufacturer.name}}</label>
+    </div>
+
+    <a href="#">Board Types</a>
+    <div *ngFor="let boardType of boardTypeCheckList; let i_manuf = index " class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="board_type_{{i_manuf}}_check" [(ngModel)]="boardType.checked"
+            (change)="onBoardTypeChanged(boardType)">
+        <label class="custom-control-label" for="board_type_{{i_manuf}}_check">{{boardType.name}}</label>
+    </div>
+
+</div>

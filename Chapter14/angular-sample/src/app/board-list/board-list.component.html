@@ -1,0 +1,41 @@
+<div class="row">
+    <div *ngFor="let board of boardList;" class="col-sm-4 board-detail-clickable" (click)="buttonClickedDetail(board)">
+        <div class="board-inner-panel shadow">
+            <div class="row">
+                <div class="col-sm-8 board-name-panel">
+                    <div class="board-name">{{board.name}}</div>
+                    <div class="board-desc">{{board.short_description}}</div>
+                    <span *ngFor="let boardtype of board.types">
+                        {{boardtype.board_type_name}} |
+                    </span>
+                </div>
+                <div class="col-sm-4 float-right board-name-panel">
+                    <img src="/assets/images/{{board.mflogo}}" class="img manufacturer-logo" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="board-name"> <img src="/assets/images/{{board.img}}" class="img board-image" /></div>
+                </div>
+                <div class="col-sm-5 size-table">
+                    <table class="table xtable-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">Sizes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <div *ngFor="let size of board.sizes">
+                                <tr>
+                                    <td>{{size.volume}}</td>
+                                </tr>
+                            </div>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

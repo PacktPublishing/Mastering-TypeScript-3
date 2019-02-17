@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>{{Title}}</h1>
+
+<ul>
+    <div *ngFor="let item of items" (click)="onItemClicked(item)">
+        <div>
+            <button class="btn btn-primary">{{item.DisplayName}}</button>
+        </div>
+        <br />
+    </div>
+
+</ul>
+
+<div *ngIf="SelectedItem" id="selectedItemText">
+    <div>Selected : {{SelectedItem.Id}} - {{SelectedItem.DisplayName}}</div>
+</div>
+
+<h2>Template Form :</h2>
+
+<div class="form-group">
+    <label for="inputName">Name :</label>
+    <input type="text" class="form-control input-name" id="inputName" [(ngModel)]="Name" />
+</div>
+
+<button id="submit-button-button" class="submit-button" (click)="onSubmit()">Submit</button>
+
+<h2>Reactive Form :</h2>
+
+<form [formGroup]="reactiveFormGroup" (ngSubmit)="onSubmitRf()">
+    <div class="form-group">
+        <label for="rfInputName">RF Name :</label>
+        <input type="text" class="form-control input-name" id="rfInputName" formControlName="nameInput" />
+    </div>
+    <button type="submit" class="submit-button" id="rf-submit-button">Submit Rf</button>
+
+</form>
