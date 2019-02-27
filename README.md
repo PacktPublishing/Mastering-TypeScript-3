@@ -47,11 +47,7 @@ With the following software and hardware list you can run all code files present
 | 13 | Brackets | Windows, Mac OS X, and Linux (Any) |
 | 1 | Visual Studio Community Edition | Windows, Mac OS X, and Linux (Any) |
 | 1 | Webstorm | Windows, Mac OS X, and Linux (Any) |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789536706_ColorImages.pdf).
 
@@ -75,28 +71,14 @@ As the world moved from thick-client and n-tier to web technologies, his focus t
 If it were not for extreme programming techniques, agile delivery, test-driven development, and continuous integration, he would have lost his mind many years ago.
 When he is not programming, he is thinking about programming. To stop thinking about programming, he goes windsurfing, plays soccer, or simply watches the professionals play soccer. They are so much better at it than he is.
 
-****
-0
 
-****
-0
-
-****
-0
-
-****
-0
 
 ## Other books by the authors
 [Mastering TypeScript](https://www.packtpub.com/web-development/mastering-typescript?utm_source=github&utm_medium=repository&utm_campaign=9781784399665 )
 
 [Mastering TypeScript - Second Edition](https://www.packtpub.com/application-development/mastering-typescript-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781786468710 )
 
-[]()
 
-[]()
-
-[]()
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
