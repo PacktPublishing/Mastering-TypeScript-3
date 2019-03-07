@@ -56,10 +56,6 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * TypeScript 3.0 Quick Start Guide [[Packt]](https://www.packtpub.com/application-development/typescript-30-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789345575 ) [[Amazon]](https://www.amazon.com/dp/178934557X)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
 ## Get to Know the Author
 **Nathan Rozentals**
 has been building commercial software for over 30 years and has been programming for a lot longer than that. Before the Internet even existed, he was building statistical analysis programs on mainframes. Like many programmers at that time, he helped save the world in the year 2000. 
